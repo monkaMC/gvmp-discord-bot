@@ -211,9 +211,6 @@ client.on('messageCreate', message =>
                        console.log(JSON.stringify(json));
                        let online = json.whitelisted;
                        let status = json.status;
-                       let jsonn = userArray.find(args);
-                       let username = jsonn.username;
-                       let forumidd = jsonn.forumid;
                        if(status == 400)
                        {
                            return message.reply(":x: Du hast eine ungültige Forum ID angegeben!")
