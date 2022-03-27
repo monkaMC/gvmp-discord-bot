@@ -1,0 +1,27 @@
+{
+  "name": "statusbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "soon"
+  },
+  "keywords": [
+    "discord",
+    "discordbot"
+  ],
+  "author": "monkaMC",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^13.6.0",
+    "jquery": "^3.6.0",
+    "jsdom": "^19.0.0",
+    "xhr": "^2.6.0",
+    "xhr2": "^0.2.1",
+    "xmlhttprequest": "^1.8.0"
+  }
+}
