@@ -25,6 +25,12 @@ function convertBooleanToEmoji(bool)
     return;
 }
 
+if(config.token == "hier token eintragen")
+{
+	console.log('Du hast vergessen dein Token einzufügen bei der config.json!');
+	return;
+}
+
 client.once('ready', () => 
 {
     const guild = client.guilds.cache.get("940656639848099840");
